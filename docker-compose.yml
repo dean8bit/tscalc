@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  tscalc:
+    image: node:16-alpine3.11
+    container_name: tscalc
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app
+    command: tail -f /dev/null
