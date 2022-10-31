@@ -1,4 +1,4 @@
 # tscalc
 A basic react calculator component
 
-[Hosted Here](https://tscalc.web.app)
+[Hosted Here](master.djjmqiqa50e31.amplifyapp.com)
